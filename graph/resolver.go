@@ -6,7 +6,9 @@ package graph
 
 //go:generate go run github.com/99designs/gqlgen
 
-import "github.com/fujitami/gqlgen-todos/graph/model"
+import (
+	"gqlgen-todos-tutorial/graph/model"
+)
 
 type Resolver struct{
 	todos []*model.Todo

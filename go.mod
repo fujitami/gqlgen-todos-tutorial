@@ -1,4 +1,4 @@
-module github.com/fujitami/gqlgen-todos
+module gqlgen-todos-tutorial
 
 go 1.17
 

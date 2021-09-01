@@ -6,10 +6,9 @@ package graph
 import (
 	"context"
 	"fmt"
+	"gqlgen-todos-tutorial/graph/generated"
+	"gqlgen-todos-tutorial/graph/model"
 	"math/rand"
-
-	"github.com/fujitami/gqlgen-todos/graph/generated"
-	"github.com/fujitami/gqlgen-todos/graph/model"
 )
 
 func (r *mutationResolver) CreateTodo(ctx context.Context, input model.NewTodo) (*model.Todo, error) {
